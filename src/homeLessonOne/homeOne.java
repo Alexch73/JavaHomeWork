@@ -1,4 +1,4 @@
-package home1;
+package homeLessonOne;
 
 import java.util.Scanner;
 public class homeOne {
