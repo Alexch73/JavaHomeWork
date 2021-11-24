@@ -9,32 +9,7 @@ public class IOExample {
     // IO | NIO
 
     public static void main(String[] args) {
-//        File file = new File("file.txt");
-        // IO API
-//        работают с байтами
-//        InputStream
-//        OutputStream
 
-//        работают с char
-//        Reader
-//        Writer
-
-        /*try {
-            writeToFile("src/file.txt", true, Charset.forName("UTF-8"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        try {
-            readByte(new File("src/file.txt"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-*/
-//        try {
-//            readByteArray(new File("src/file.txt"), Charset.forName("UTF-8"));
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
 
         File[] files = {
                 new File("src/file.txt"),
@@ -127,16 +102,7 @@ public class IOExample {
              ByteArrayOutputStream bout = new ByteArrayOutputStream())
         {
 
-            /*InputStream stream1 = new FileInputStream("file1.txt");
-            InputStream stream2 = new FileInputStream("file2.txt");
-            InputStream stream3 = new FileInputStream("file3.txt");
-            InputStream stream4 = new FileInputStream("file4.txt");
-            Vector<InputStream> sequence = new Vector<>();
-            sequence.add(stream1);
-            sequence.add(stream2);
-            sequence.add(stream3);
-            sequence.add(stream4);
-            SequenceInputStream sequenceStream = new SequenceInputStream(sequence.elements());*/
+
 
             SequenceInputStream sequenceInputStream =
                     new SequenceInputStream(inputStream1, inputStream2);
