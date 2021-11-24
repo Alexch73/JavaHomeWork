@@ -15,7 +15,7 @@ public class Process implements Runnable{
             if (Ship.getLoad() == null) {
                 System.out.println("Погрузка груза  на корабль " + Ship.getName() + " на причале   " + target.getNumber());
                 loadSheep();
-
+///
             } else if (Ship.getLoad() != null & Ship.aLoadAndUnload()==true) {
                 System.out.println("Разгрузка груза " + Ship.getLoad()+ " и погрузка на корабль " + Ship.getName() + " на причале " + target.getNumber());
                 unloadSheep();
