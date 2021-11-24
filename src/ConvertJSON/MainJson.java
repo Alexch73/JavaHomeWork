@@ -11,10 +11,7 @@ public class MainJson {
         cat.name = "Murka";
         cat.age = 5;
 
-//        Dog dog = new Dog();
-//        dog.name = "Killer";
-//        dog.age = 8;
-//        dog.owner = "Bill Jeferson";
+
 
 //        ArrayList<Pet> pets = new ArrayList<Pet>();
 //        pets.add(cat);
