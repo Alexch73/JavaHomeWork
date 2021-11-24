@@ -8,7 +8,7 @@ public class Process implements Runnable{
         this.target = target;
         this.Ship = ship;
     }
-
+///
     @Override
     public void run() {
         synchronized (target) {
